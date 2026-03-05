@@ -2,7 +2,7 @@
 
 ## 📌 Descrição
 
-Este projeto foi desenvolvido para criar modelos preditivos capazes de prever quais clientes terão propensão a cancelar os serviços da **Telecom X** baseados em variáveis relevantes.
+Este projeto foi desenvolvido para criar modelos preditivos capazes de prever quais clientes terão propensão a cancelar os serviços da **Telecom X**, baseados em variáveis relevantes.
 
 ## 🏆 Objetivos
 
@@ -48,9 +48,9 @@ Este projeto foi desenvolvido para criar modelos preditivos capazes de prever qu
 
 # 😁 Contato
 
-**Nome:** Tardelli Dias<br>
-**E-mail:** tardelli.dias@gmail.com<br>
-**LinkedIn:** https://www.linkedin.com/in/tardelli-dias/
+**Nome:** Tardelli Dias <br>
+**E-mail:** tardelli.dias@gmail.com <br>
+**LinkedIn:** https://www.linkedin.com/in/tardelli-dias/ <br>
 **Discord:** https://discord.com/users/tardellif
 - - -
 📚 ***Projeto com fins educacionais.***
