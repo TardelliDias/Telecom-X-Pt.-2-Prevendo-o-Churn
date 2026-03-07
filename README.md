@@ -20,7 +20,7 @@ Este projeto foi desenvolvido para criar modelos preditivos capazes de prever qu
 
 ## ✅ Status do Projeto
 
- Projeto em construção! 
+✔️ Projeto concluído! 
 
 ## 💻 Tecnologias Utilizadas
 
@@ -38,11 +38,17 @@ Este projeto foi desenvolvido para criar modelos preditivos capazes de prever qu
 
 ## 📊 Resultados
 
+* Com base na análise exploratória (boxplots) e na importância das features pelos modelos, os principais fatores que influenciam a evasão são:
 
+  1. **Tempo de Contrato**: Clientes mais novos são mais propensos a sair.
+  2. **Cobrança Mensal**: Clientes com planos mais caros são mais propensos a evadir.
+  3. **Método de pagamento (`Cheque eletrônico`)**: Clientes que pagam via cheque eletrônico são frequentemente associados a maior churn.
+  4. **Serviço de Internet (`Fibra ótica`)**: A presença de serviço de fibra ótica frequentemente aparece como um fator de churn, talvez devido a altas expectativas ou concorrência.
+  
 
 # 📜 Conclusão
 
-
+A análise revelou que a evasão de clientes é um problema complexo influenciado por fatores como `tempo de contrato`, `cobrança mensal`, `tipo de contrato`, `serviço de internet` e `método de pagamento`. O modelo **Random Forest treinado com oversampling (SMOTE)** se destacou como o mais eficaz na previsão de churn, com uma acurácia de 85%, se apresentando como uma ferramenta poderosa para identificar clientes em risco de evasão.
 
 * [Acessar o Relatório Final](https://github.com/TardelliDias/Telecom-X-Pt.-2-Prevendo-o-Churn/blob/main/relatorio_final.md)
 
