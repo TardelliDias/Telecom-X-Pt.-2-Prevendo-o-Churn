@@ -1,4 +1,4 @@
-# Relatório Detalhado: Análise e Previsão de Evasão de Clientes (Churn)
+# <h1 align='center'>Análise e Previsão de Evasão de Clientes (Churn)</h1>
 
 ## 1. Introdução
 
@@ -183,4 +183,5 @@ Com base nos fatores identificados e no desempenho dos modelos, as seguintes est
 A análise revelou que a evasão de clientes é um problema complexo influenciado por fatores como `tempo de contrato`, `cobrança mensal`, `tipo de contrato`, `serviço de internet` e `método de pagamento`. O modelo **Random Forest treinado com oversampling (SMOTE)** se destacou como o mais eficaz na previsão de churn, fornecendo uma ferramenta poderosa para identificar clientes em risco.
 
 As estratégias de retenção propostas são direcionadas aos principais fatores que influenciam o churn identificados na análise, com foco na proatividade, personalização e incentivos para construir relacionamentos mais duradouros e satisfatórios com os clientes. A implementação contínua e o monitoramento dessas estratégias, juntamente com a reavaliação periódica do modelo, serão fundamentais para reduzir a taxa de evasão.
+
 
