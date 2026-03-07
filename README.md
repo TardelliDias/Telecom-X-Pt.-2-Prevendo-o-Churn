@@ -44,7 +44,7 @@ Este projeto foi desenvolvido para criar modelos preditivos capazes de prever qu
 
 
 
-* [Acessar o Relatório Final]()
+* [Acessar o Relatório Final](https://github.com/TardelliDias/Telecom-X-Pt.-2-Prevendo-o-Churn/blob/main/relatorio_final.md)
 
 # 😁 Contato
 
