@@ -95,7 +95,7 @@ Com base na análise exploratória (boxplots) e na importância das features pel
     *   Clientes que **não evadem** (`churn=0`) possuem contratos de **maior duração** (mediana proximo de 40 meses).
     *   **Insight**: Clientes mais novos são mais propensos a sair.
 <br>
-![contrato_vs_churn](tempo_de_contrato_vs_churn.png)
+![tempo_de_contrato_vs_churn.png](https://github.com/TardelliDias/Telecom-X-Pt.-2-Prevendo-o-Churn/blob/main/img/tempo_de_contrato_vs_churn.png))
 <br>
 
 *   **Cobrança Mensal**:
@@ -103,7 +103,7 @@ Com base na análise exploratória (boxplots) e na importância das features pel
     *   Clientes que **não evadem** (`churn=0`) têm uma distribuição de cobrança mensal mais ampla, mas com uma mediana menor.
     *   **Insight**: Clientes com planos mais caros são mais propensos a evadir.
 <br>
-![cobranca_churn](cobranca_mensal_vs_churn.png)
+![cobranca_mensal_vs_churn.png](https://github.com/TardelliDias/Telecom-X-Pt.-2-Prevendo-o-Churn/blob/main/img/cobranca_mensal_vs_churn.png))
 <br>
 
 ### 3.2. Importância das Features pelos Modelos:
@@ -183,5 +183,6 @@ Com base nos fatores identificados e no desempenho dos modelos, as seguintes est
 A análise revelou que a evasão de clientes é um problema complexo influenciado por fatores como `tempo de contrato`, `cobrança mensal`, `tipo de contrato`, `serviço de internet` e `método de pagamento`. O modelo **Random Forest treinado com oversampling (SMOTE)** se destacou como o mais eficaz na previsão de churn, fornecendo uma ferramenta poderosa para identificar clientes em risco.
 
 As estratégias de retenção propostas são direcionadas aos principais fatores que influenciam o churn identificados na análise, com foco na proatividade, personalização e incentivos para construir relacionamentos mais duradouros e satisfatórios com os clientes. A implementação contínua e o monitoramento dessas estratégias, juntamente com a reavaliação periódica do modelo, serão fundamentais para reduzir a taxa de evasão.
+
 
 
