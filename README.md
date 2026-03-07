@@ -38,12 +38,12 @@ Este projeto foi desenvolvido para criar modelos preditivos capazes de prever qu
 
 ## 📊 Resultados
 
-* Com base na análise exploratória (boxplots) e na importância das features pelos modelos, os principais fatores que influenciam a evasão são:
+Com base na análise exploratória (boxplots) e na importância das features pelos modelos, os principais fatores que influenciam a evasão são:
 
-  1. **Tempo de Contrato**: Clientes mais novos são mais propensos a sair.
-  2. **Cobrança Mensal**: Clientes com planos mais caros são mais propensos a evadir.
-  3. **Método de pagamento (`Cheque eletrônico`)**: Clientes que pagam via cheque eletrônico são frequentemente associados a maior churn.
-  4. **Serviço de Internet (`Fibra ótica`)**: A presença de serviço de fibra ótica frequentemente aparece como um fator de churn, talvez devido a altas expectativas ou concorrência.
+  * **Tempo de Contrato**: Clientes mais novos são mais propensos a sair.
+  *  **Cobrança Mensal**: Clientes com planos mais caros são mais propensos a evadir.
+  *  **Método de pagamento (`Cheque eletrônico`)**: Clientes que pagam via cheque eletrônico são frequentemente associados a maior churn.
+  *  **Serviço de Internet (`Fibra ótica`)**: A presença de serviço de fibra ótica frequentemente aparece como um fator de churn, talvez devido a altas expectativas ou concorrência.
   
 
 # 📜 Conclusão
