@@ -46,13 +46,13 @@ Com base na análise exploratória (boxplots) e na importância das features pel
   *  **Serviço de Internet (`Fibra ótica`)**: A presença de serviço de fibra ótica frequentemente aparece como um fator de churn, talvez devido a altas expectativas ou concorrência.
   
 
-# 📜 Conclusão
+## 📜 Conclusão
 
 A análise revelou que a evasão de clientes é um problema complexo influenciado por fatores como `tempo de contrato`, `cobrança mensal`, `tipo de contrato`, `serviço de internet` e `método de pagamento`. O modelo **Random Forest treinado com oversampling (SMOTE)** se destacou como o mais eficaz na previsão de churn, com uma acurácia de 85%, se apresentando como uma ferramenta poderosa para identificar clientes em risco de evasão.
 
 * [Acessar o Relatório Final](https://github.com/TardelliDias/Telecom-X-Pt.-2-Prevendo-o-Churn/blob/main/relatorio_final.md)
 
-# 😁 Contato
+## 😁 Contato
 
 **Nome:** Tardelli Dias <br>
 **E-mail:** tardelli.dias@gmail.com <br>
