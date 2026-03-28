@@ -1,66 +1,120 @@
-# <h1 align='center'>Telecom X - Prevendo o Churn</h1>
+# 📊 Previsão de Churn de Clientes com Machine Learning
 
-## 📌 Descrição
+## 🚀 Visão Geral
 
-Este projeto foi desenvolvido para criar modelos preditivos capazes de prever quais clientes terão propensão a cancelar os serviços da **Telecom X**, baseados em variáveis relevantes.
+Este projeto tem como objetivo prever o cancelamento de clientes (churn) em uma empresa de telecomunicações, utilizando técnicas de análise de dados e Machine Learning.
 
-## 🏆 Objetivos
+A retenção de clientes é um dos principais desafios de empresas orientadas a serviços, e a capacidade de antecipar cancelamentos permite ações estratégicas para redução de perdas.
 
-* Preparar os dados para a modelagem (tratamento, encoding, normalização).
+---
 
-* Realizar análise de correlação e seleção de variáveis.
+## 🎯 Problema de Negócio
 
-* Treinar dois ou mais modelos de classificação.
+Empresas de telecom enfrentam altas taxas de cancelamento de clientes.
 
-* Avaliar o desempenho dos modelos com métricas.
+**Pergunta-chave:**
 
-* Interpretar os resultados, incluindo a importância das variáveis.
+> Quais clientes têm maior probabilidade de cancelar o serviço?
 
-* Criar uma conclusão estratégica apontando os principais fatores que influenciam a evasão.
+---
 
-## ✅ Status do Projeto
+## 🧠 Solução Proposta
 
-✔️ Projeto concluído! 
+Foi desenvolvido um modelo preditivo utilizando Python, com as seguintes etapas:
 
-## 💻 Tecnologias Utilizadas
+* Limpeza e tratamento dos dados
+* Análise exploratória (EDA)
+* Seleção de variáveis relevantes
+* Treinamento de modelo de regressão
+* Avaliação de desempenho
 
-* `Python` - Linguagem base para o projeto
+---
 
-* `Pandas` - Biblioteca para análise e exploração dos dados
+## 🛠️ Tecnologias Utilizadas
 
-* `Seaborn` e `Matplotlib` - Bibliotecas para visualização dos dados
+* Python
+* Pandas
+* NumPy
+* Matplotlib / Seaborn
+* Scikit-learn
 
-* `Scikit-learn` - Biblioteca para criar os modelos preditivos
+---
 
-* `Markdown` - Apresentação e documentação
+## 📊 Etapas do Projeto
 
-* `Jupyter Notebook` - Ambiente de desenvolvimento e execução 
+### 🔍 1. Análise Exploratória (EDA)
 
-## 📊 Resultados
+* Identificação de padrões de comportamento
+* Análise de variáveis relevantes para churn
+* Visualização de correlações
 
-Com base na análise exploratória (boxplots) e na importância das features pelos modelos, os principais fatores que influenciam a evasão são:
+---
 
-  * **Tempo de Contrato**: Clientes mais novos são mais propensos a sair.
-  *  **Cobrança Mensal**: Clientes com planos mais caros são mais propensos a evadir.
-  *  **Método de pagamento (`Cheque eletrônico`)**: Clientes que pagam via cheque eletrônico são frequentemente associados a maior churn.
-  *  **Serviço de Internet (`Fibra ótica`)**: A presença de serviço de fibra ótica frequentemente aparece como um fator de churn, talvez devido a altas expectativas ou concorrência.
-  
+### ⚙️ 2. Preparação dos Dados
 
-## 📜 Conclusão
+* Tratamento de valores nulos
+* Encoding de variáveis categóricas
+* Normalização (quando necessário)
 
-A análise revelou que a evasão de clientes é um problema complexo influenciado por fatores como `tempo de contrato`, `cobrança mensal`, `tipo de contrato`, `serviço de internet` e `método de pagamento`. O modelo **Random Forest treinado com oversampling (SMOTE)** se destacou como o mais eficaz na previsão de churn, com uma acurácia de 85%, se apresentando como uma ferramenta poderosa para identificar clientes em risco de evasão.
+---
 
-* [Acessar o Relatório Final](https://github.com/TardelliDias/Telecom-X-Pt.-2-Prevendo-o-Churn/blob/main/relatorio_final.md)
+### 🤖 3. Modelagem
 
-## 😁 Contato
+* Aplicação de modelo de regressão
+* Treinamento e teste do modelo
 
-**Nome:** Tardelli Dias <br>
-**E-mail:** tardelli.dias@gmail.com <br>
-**LinkedIn:** https://www.linkedin.com/in/tardelli-dias/ <br>
-**Discord:** https://discord.com/users/tardellif
-- - -
-📚 ***Projeto com fins educacionais.***
+---
 
+### 📈 4. Avaliação
 
+* Métricas de desempenho do modelo
+* Análise dos resultados
 
+---
 
+## 💡 Principais Insights
+
+* Clientes com contratos mensais apresentam maior probabilidade de churn
+* Tempo de permanência influencia diretamente a retenção
+* Serviços adicionais impactam na fidelização
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+├── dados/
+├── notebooks/
+├── scripts/
+└── README.md
+```
+
+---
+
+## 🚀 Possíveis Melhorias
+
+* Testar outros modelos (Random Forest, XGBoost)
+* Deploy do modelo em ambiente cloud (AWS)
+* Criação de API para consumo do modelo
+
+---
+
+## 🌐 Próximos Passos
+
+* Integração com AWS (S3 + Lambda)
+* Automação do pipeline de dados
+* Monitoramento do modelo
+
+---
+
+## 👨‍💻 Autor
+
+**Tardelli Dias**
+🔗 E-mail: tardelli.ti.brasil@gmail.com
+🔗 LinkedIn: https://www.linkedin.com/in/tardelli-dias/
+
+---
+
+## ⭐ Contribuição
+
+Sinta-se à vontade para contribuir ou sugerir melhorias!
