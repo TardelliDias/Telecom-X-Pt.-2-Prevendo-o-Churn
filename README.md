@@ -109,9 +109,9 @@ Foi desenvolvido um modelo preditivo utilizando Python, com as seguintes etapas:
 
 ## 👨‍💻 Autor
 
-**Tardelli Dias**
-🔗 E-mail: tardelli.ti.brasil@gmail.com
-🔗 LinkedIn: https://www.linkedin.com/in/tardelli-dias/
+**Tardelli Dias**<br>
+🔗 E-mail: tardelli.ti.brasil@gmail.com<br>
+🔗 LinkedIn: https://www.linkedin.com/in/tardelli-dias/<br>
 🔗 Discord: https://discord.com/users/tardellif
 
 ---
